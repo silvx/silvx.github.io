@@ -2,22 +2,24 @@
 layout: default
 title: Jing Wang Group
 ---
-<img src='/asset/img/banner1.jpg' alt='banner1' class=img-responsive>
-<div class="home">
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<img src='/asset/img/banner1.jpg' alt='banner1' class="img-responsive" width="100%">
+<div class='container half-width'>
+  <h1 class='text-center blue index-subtitle'>Principle Investigator</h1>
+<div class="container" style="max-width: 650px;">
+ <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="asset/img/head.jpg" alt="..." style="max-width: 250px;">
+    </a>
+  </div>
+  <div class="media-body" style="padding: 20px 0px 0px 30px;">
+    <h2 class="media-heading">Prof. Jing Wang</h2>
+    <p class="lead blue">Tenure-Track Assistant Professor, Department of Chemical Biology</p>
+    <address><b>Office</b>: Room 312, Building 2, SKLNBD
+      <br><b>Email</b>: <a href="mailto://wangjingsioc@bjmu.edu.cn">wangjingsioc@bjmu.edu.cn</a>
+      <br><b>Phone</b>: +86-10-82801563</address>
+    </div>
+  </div>
+</div>
 
 </div>
