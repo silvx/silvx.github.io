@@ -18,3 +18,7 @@ div.half-width {
 .index-subtitle {
 	margin: 30px 0 30px 0;
 }
+
+.member-name {
+	font-size: 140%;
+}
