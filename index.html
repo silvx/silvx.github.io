@@ -32,10 +32,16 @@ title: Jing Wang Group
     <div class="row">
       {% for member in site.members %}
         <div class="col-md-3">
-          <img src="/asset/img/{{member.photo}}" class="img-responsive center-block member-photo">
-          <p class='text-center member-name'>{{member.name}}</p>
+          <div class='member-box'>
+            <img src="/asset/img/{{member.photo}}" class="img-responsive center-block member-photo">
+            <p class='text-center member-name blue'>{{member.name}}</p>
+          </div>
         </div>
       {% endfor %}
     </div>
   </div>
+</div>
+
+<div class="container-fluid">
+  <h1 class='text-center blue index-subtitle'>News</h1>
 </div>

@@ -15,10 +15,28 @@ div.half-width {
 	color: #003366;
 }
 
+.white {
+	color: #ffffff;
+}
+
 .index-subtitle {
 	margin: 30px 0 30px 0;
 }
 
 .member-name {
 	font-size: 140%;
+	margin-top: 10px;
+}
+
+div.member-box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #003366;
+	margin: 0 10px 0 10px;
+	padding: 10px 0 10px 0;
+}
+
+div#bottom-bar {
+	background-color: #003366;
+	margin-top: 30px;
 }
