@@ -2,14 +2,16 @@
 layout: default
 title: Jing Wang Group
 ---
+<!-- Top banner -->
 <img src='/asset/img/banner1.jpg' alt='banner1' class="img-responsive" width="100%">
-<div class='container half-width'>
-  <h1 class='text-center blue index-subtitle'>Principle Investigator</h1>
+<!-- PI -->
+<div class='container half-width index-section'>
+  <h1 class='text-center blue index-section-title'>Principle Investigator</h1>
   <div class="container border-color-blue" style="max-width: 800px;">
     <div class="media">
       <div class="media-left">
         <a href="#">
-        <img class="media-object" src="asset/img/head.jpg" alt="..." style="max-width: 250px;">
+        <img class="media-object" src="/asset/img/head.jpg" alt="..." style="max-width: 250px;">
         </a>
       </div>
       <div class="media-body" style="padding: 20px 0px 0px 30px;">
@@ -17,21 +19,28 @@ title: Jing Wang Group
         <p class="lead blue">
           Tenure-Track Assistant Professor, Department of Chemical Biology
         </p>
-        <address><b>Office</b>: Room 312, Building 2, SKLNBD
-        <br>
-        <b>Email</b>: <a href="mailto://wangjingsioc@bjmu.edu.cn">wangjingsioc@bjmu.edu.cn</a>
-        <br>
-        <b>Phone</b>: +86-10-82801563</address>
+        <address>
+          <span class="glyphicon glyphicon-home contact-icon blue"></span>
+          Room 312, Building 2, SKLNBD
+          <br>
+          <span class="glyphicon glyphicon-envelope contact-icon blue"></span>
+          <a href="mailto://wangjingsioc@bjmu.edu.cn">wangjingsioc@bjmu.edu.cn</a>
+          <br>
+          <span class="glyphicon glyphicon-phone-alt contact-icon blue"></span>
+          +86-10-82801563
+        </address>
       </div>
     </div>
   </div>
 </div>
-<div class="container-fluid">
-  <h1 class='text-center blue index-subtitle'>Members</h1>
+<hr>
+<!-- Members -->
+<div class="container-fluid index-section">
+  <h1 class='text-center blue index-section-title'>Members</h1>
   <div class='container' style="max-width: 800px;">
     <div class="row">
       {% for member in site.members %}
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <div class='member-box'>
             <img src="/asset/img/{{member.photo}}" class="img-responsive center-block member-photo">
             <p class='text-center member-name blue'>{{member.name}}</p>
@@ -41,7 +50,8 @@ title: Jing Wang Group
     </div>
   </div>
 </div>
-
-<div class="container-fluid">
-  <h1 class='text-center blue index-subtitle'>News</h1>
+<hr>
+<!-- News -->
+<div class="container-fluid index-section">
+  <h1 class='text-center blue index-section-title'>News</h1>
 </div>
